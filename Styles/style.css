@@ -1,188 +1,163 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*by default we will get some value.we put margin =0 
 and padding =0  we block by default value.so I can reset margin and padding */
 
 body {
-
-   font-family: 'poppins' sans-serif;
+  font-family: "poppins" sans-serif;
 }
 
 .half-width {
-   float: left;
-   width: 47%;
-   margin-left: 2%;
-   padding-left: 2%; 
-   margin-bottom: 75px; 
-} 
+  float: left;
+  width: 45%;
+  margin-left: 2%;
+  padding-left: 2%;
+  margin-bottom: 75px;
+}
 /* comment out then we see live server  for margin*/
 /* float */
 
 .half-width img {
-   width: 100%;
+  width: 100%;
 }
 
 .purple-heading {
-   color: rgb(147, 28, 207);
-   text-align: left;
-
+  color: rgb(147, 28, 207);
+  text-align: left;
 }
 
 .red-heading {
-   color: red;
-   text-align: left;
-   font-style: italic;
-  
+  color: red;
+  text-align: left;
+  font-style: italic;
 }
 /* text align */
 
 p {
-   font-style: italic;
-   padding-bottom: 40px;
+  font-style: italic;
+  padding-bottom: 40px;
 }
 /* font style */
 
-
 .top-banner {
-   background-image: url("../images/topbackground.png"); 
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: left;
-   min-height: 60vh;
-   margin-bottom: 100px;
+  background-image: url("../images/topbackground.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  min-height: 60vh;
+  margin-bottom: 100px;
 }
 /* inside the inverted comma i declare the path of image file */
 
 .btn {
-   color: white;
-   background-color: #8b36d0;
-   font-size: 20px;
-   padding: 1%;
-   text-decoration: solid;
-
+  color: white;
+  background-color: #8b36d0;
+  font-size: 20px;
+  padding: 1%;
+  text-decoration: solid;
 }
 /* .............................................................................. */
 
 .mid-banner {
-   width: 100%;
+  width: 100%;
 }
 
 .blue-heading {
-   color: blueviolet;
-   text-align: right;
-
+  color: blueviolet;
+  text-align: right;
 }
 /* text align */
 
 .goal {
-   font-style: italic;
-   color: red;
-   
-
+  font-style: italic;
+  color: red;
 }
 
 .button {
-   color: white;
-   background-color: blueviolet;
-   font-size: 20px;
-   padding: 1%;
-   text-decoration:solid;
+  color: white;
+  background-color: blueviolet;
+  font-size: 20px;
+  padding: 1%;
+  text-decoration: solid;
 }
-   
-
 
 .mid-banner {
-   background-image: url("../images/midbackground.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: right;
-   min-height: 60vh;
-   margin: bottom 100px;
-  
+  background-image: url("../images/midbackground.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  min-height: 60vh;
+  margin: bottom 100px;
 }
 
 .purple-heading {
-   font-size: 20px;
-   color: blueviolet;
-   font-style: italic;
+  font-size: 20px;
+  color: blueviolet;
+  font-style: italic;
 }
 /* .................................................................................... */
 
 .bottom-banner {
-   width: 100%;
-
+  width: 100%;
 }
-
 
 .experience-heading {
-
-   color: blueviolet;
-   padding-bottom: 20px;
-
+  color: blueviolet;
+  padding-bottom: 20px;
 }
 
-
 .experience-title {
-
-   box-shadow: 8px 8px 30px rgb(203, 48, 48);
-   border-radius:8px ;
-   height: 50%;
-   background-color: white;
-   border-top: 7px solid blueviolet;
-   padding: 20px;
-   
+  box-shadow: 8px 8px 30px rgb(203, 48, 48);
+  border-radius: 8px;
+  height: 50%;
+  background-color: white;
+  border-top: 7px solid blueviolet;
+  padding: 20px;
 }
 /* .................................................................................. */
 
 .footercontainer {
-
-   background-color: rgb(186, 225, 141);
-   width: 100%;
-   display: flex;  
-   justify-content: center;
-   height: 250px;
-   padding: 20px 20px 20px;
-   margin: auto;
+  background-color: rgb(186, 225, 141);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  padding: 20px 20px 20px;
+  margin: auto;
 }
 /* the elements  can be display horizontaly or verticaly (column or row)  */
-footer{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   text-align: center;
-   
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .contacts {
-
-   display: flex;
-   gap: 50px;
-   align-items: center;
-   justify-content: center;
-
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
 }
 /* align item,justify content */
 
 .gap {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .socialMedia {
-   text-align: center;
-  
+  text-align: center;
 }
 
 .front-end {
-   align-items: center;
-   font-size: 15px;
-   justify-content: center;
-  
-
+  align-items: center;
+  font-size: 15px;
+  justify-content: center;
 }
