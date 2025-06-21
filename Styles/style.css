@@ -94,6 +94,7 @@ p {
 }
 
 .purple-heading {
+  margin-top: 20px;
   font-size: 20px;
   color: blueviolet;
   font-style: italic;
@@ -101,7 +102,9 @@ p {
 /* .................................................................................... */
 
 .bottom-banner {
-  width: 100%;
+  width: 98%;
+  display: flex;
+  justify-items: between;
 }
 
 .experience-heading {
